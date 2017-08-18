@@ -10,6 +10,8 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-pro
  
  example:
  @Value("#{'${xxx.xxx}'=='sandbox' ? '${xxx.sandbox}' : '${xxx.production}'}")
+ With #{} it is an expression, with ${} it is a placeholder for a value
+ 
  
  @ConditionalOnExpression("'${server.host}'=='localhost'")  // can't apply to field
  
