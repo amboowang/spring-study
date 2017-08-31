@@ -1,4 +1,4 @@
-#h1 WebSocket Support
+# WebSocket Support
 https://docs.spring.io/spring/docs/current/spring-framework-reference/html/websocket.html#websocket-stomp-handle-send.
 
 https://stackoverflow.com/questions/22367223/sending-message-to-specific-user-on-spring-websocket
