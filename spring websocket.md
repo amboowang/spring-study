@@ -7,4 +7,5 @@ https://stackoverflow.com/questions/39333910/sending-message-to-specific-user-us
 
 https://stackoverflow.com/questions/25646671/check-auth-while-sending-a-message-to-a-specific-user-by-using-stomp-and-websock
 
-
+# Security 
+* more tely, to ensure a user has authenticated to your WebSocket application, all that is necessary is to ensure that you setup Spring Security to authenticate your HTTP based web application.
