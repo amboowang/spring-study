@@ -1,5 +1,7 @@
 ## Cloud Foundary
 Push the app and then create the user provided service by:
+
+**Note**: Notice the `defaultZone` property in the eureka server. 
 ```
 cf cups eureka -p "{\"url\": \"http://eureka-test.local.pcfdev.io/eureka/\"}"
 ```
